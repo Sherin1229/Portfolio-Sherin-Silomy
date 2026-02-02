@@ -111,7 +111,7 @@ export const projects = [
   {
     title: "Online Gaming Management System",
     description:
-      "A web-based gaming management system with player handling features. My role focused on implementing CRUD operations for report management.",
+      "A web-based gaming management system with report handling features. My role focused on implementing CRUD operations for report management.",
     image: projectImg4,
     tech: [
       { name: "Java", icon: FaJava },
