@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { assets } from '../assets/assets'
+import CV from '../assets/Sherin_Silomy_CV.pdf'
+import { FaDownload } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -23,7 +25,9 @@ const Hero = () => {
                 Skilled in adapting to new tools and concepts.
                 Aspires to contribute to meaningful and impactful projects.</p>
                 <div className='flex space-x-4'>
-                    <a href='#projects' className='px-6 py-3 bg-gold rounded-lg font-medium hover:bg-gold-700 transition duration-300'>View Work</a>
+                    <a href={CV} download className='px-6 py-3 bg-gold rounded-lg font-medium hover:bg-gold-700 transition duration-300'>
+                        <button className='flex'> <FaDownload className='w-5 h-5 mr-2'/> Download CV </button>
+                    </a>
                     <a href='#contact' className='px-6 py-3 border border-gold rounded-lg font-medium hover:bg-gold/20 transition decoration-gold'>Contact Me</a>
                 </div>
             </div>
