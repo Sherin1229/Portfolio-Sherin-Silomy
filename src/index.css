@@ -26,7 +26,7 @@
 
 @keyframes typing {
   from { width: 0; }
-  to   { width: 13ch; } /* Match the number of characters */
+  to   { width: 13ch; } 
 }
 
 @keyframes blink-caret {

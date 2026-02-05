@@ -34,12 +34,12 @@ const ProjectCard = ({ title, description, image, tech, type, role, demo, code }
           })}
         </div>
         <div className="flex gap-2">
-          <a
+          {/* <a
             href={demo || '#'}
             className="flex-1 text-center px-4 py-2 bg-gold rounded-lg font-medium hover:bg-gold-700 transition duration-300"
           >
             View Demo
-          </a>
+          </a> */}
           <a
             href={code || '#'}
             className="flex-1 text-center px-4 py-2 border border-gold rounded-lg font-medium hover:bg-gold/20 transition duration-300"
