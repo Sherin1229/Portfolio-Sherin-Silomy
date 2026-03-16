@@ -27,7 +27,7 @@ const Projects = () => {
                 }
             </div>
             <div className='text-center mt-12'>
-                <a href='#' className='inline-flex items-center px-6 py-3 border border-gold rounded-lg font-medium hover:bg-gold/20 transition duration-300'>
+                <a href='https://github.com/Sherin1229' className='inline-flex items-center px-6 py-3 border border-gold rounded-lg font-medium hover:bg-gold/20 transition duration-300'>
                     <span>View More Projects</span>
                     <FaArrowRight className='ml-2' />
                 </a>
